@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green;
+}
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav__item {
+    margin-right: 28px;
+    padding-left: 50px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.btn {
+    color: white;
+    background-color: green;
+    border: 0px solid #000000;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    height: 49px;
+    width: 165px;
+    padding: 15px 36px;
+}
+
+.hero__content {}
+
+.hero__info {}
+
+.title {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    width: 665px;
+    height: 130px;
+    left: 254px;
+    top: 307px;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    margin-bottom: 40px;
+    padding-top: 100px;
+}
+
+.hero__desc {
+    margin-bottom: 50px;
+    width: 523px;
+    height: 78px;
+    left: 254px;
+    top: 472px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(15, 1, 1, 0.6);
+    font-family: 'Hind Madurai';
+}
+
+.hero__img-content {}
+
+.hero__img-men {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 990px;
+    top: 126px;
+}
